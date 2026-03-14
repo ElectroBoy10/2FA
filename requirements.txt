@@ -1,0 +1,6 @@
+# 2FA Generator — dependencies
+# Install with: pip install -r requirements.txt
+
+pyotp>=2.9.0          # TOTP / HOTP generation and verification  [required]
+colorama>=0.4.6       # Terminal colours                          [required]
+qrcode>=7.4.2         # QR code terminal rendering                [optional]
